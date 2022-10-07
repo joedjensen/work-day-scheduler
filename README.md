@@ -52,3 +52,4 @@ We use the disabled class to disable the hover animation in the CSS
   transition: all .3s ease-in-out;
 }
 ```
+![](./assets/images/wds.gif)
