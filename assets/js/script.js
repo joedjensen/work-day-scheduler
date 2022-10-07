@@ -53,7 +53,7 @@ function renderCalendar() {
         rowEl = $('<div>', { "class": "row" })
         hourEl = $('<div>', { "class": "hour col-1" })
         buttonEl = $('<button>', { "class": "saveBtn col-1" })
-        buttonImageEl = $('<i>', { "class": "fa fa-lock" })
+        buttonImageEl = $('<i>', { "class": "fa fa-save" })
         entryBlockEl = $("<textarea>", { "class": "col-10" })
         // conditional formatting. we add 9 to the index to get the hour value in 24 hour clock and compare that to the current hour
         if (i + 9 < currentHour) {
