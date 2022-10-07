@@ -62,6 +62,8 @@ function renderCalendar() {
             if (toggleEl.is(':checked')) {
                 entryBlockEl.prop('disabled', true)
                 buttonEl.prop('disabled', true)
+                // class used to disable button icon animation in css
+                buttonEl.addClass("disabled")
             }
         } else if (i + 9 == currentHour) {
             entryBlockEl.addClass("present")
